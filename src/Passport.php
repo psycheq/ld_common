@@ -1,4 +1,5 @@
 <?php
+namespace ld\common;
 
 class Passport
 {
