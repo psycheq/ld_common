@@ -2,12 +2,12 @@
     "name": "ld/common",
     "description": "零点公共库",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "symfony/var-dumper": "*"
     },
     "autoload": {
         "psr-4": {
-            "ld\\common\\": "src/",
-            "symfony/var-dumper": "*"
+            "ld\\common\\": "src/"
         }
     }
 }
